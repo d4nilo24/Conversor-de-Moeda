@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", serif;  
+}
+
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.frm-conversor {
+    max-width: 720px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+}
+
+.frm-conversor h1 {
+    margin-bottom: 20px;
+}
+
+.frm-conversor .input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.frm-conversor .input-container {
+    display: block;
+    width: 45%;
+    text-align: center;
+}
+
+.frm-conversor .input-container img {
+    width: 6%;
+}
+
+.frm-conversor .input-container input {
+    padding: 7px;
+    width: 80%;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.frm-conversor .arrow-icon {
+    font-size: 2.5em;
+    color: #333;
+    margin: 0 20px;
+}
+
+.frm-conversor .button-group {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    width: 80%;
+    padding-right: 15px;
+}
+
+.frm-conversor .button-group button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    margin: 0 10px;
+    justify-content: end;
+}
+
+.frm-conversor .button-group button:hover {
+    background-color: #555;
+}
+
+.erro-container {
+    margin-top: 20px;  
+    width: 80%;
+    text-align: center;
+    display: block;
+}
+
+#erro {
+    position: absolute;
+    bottom: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}
